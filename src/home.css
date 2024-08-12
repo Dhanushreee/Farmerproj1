@@ -1,0 +1,177 @@
+.homepage-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 150vh;
+}
+
+.homepage-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex: 1;
+  padding: 1px;
+  box-sizing: border-box;
+  background-color: #d3d9c3;
+}
+
+.container {
+  flex: 1;
+  max-width: 40%;
+  gap: 10px;
+  background-size: cover;
+  padding-top: 40px;
+  background-position: center;
+  border-radius: 8px;
+  background-color: #80a73a;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin: 5px;
+  position: relative;
+ height: 200px;
+}
+
+.container:nth-child(1) {
+  background-image: url('C:/Users/Dhanushree/Desktop/proj1/proj1/src/images/AdobeStock_291017406-min-scaled.jpeg');
+}
+
+.container:nth-child(2) {
+  background-image: url('C:/Users/Dhanushree/Desktop/proj1/proj1/src/images/shutterstock_1798373137.jpg');
+}
+
+.text-content {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  max-width: 90%;
+}
+
+.container h2 {
+  margin-bottom: 10px;
+}
+
+.container button:hover {
+  background-color: #0056b3;
+}
+
+.footer {
+  width: 100%;
+  background-color: #8db14a;
+  color: white;
+  padding: 40px 0;
+  position: relative;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+  background-color: #a2b57d;
+}
+
+.footer-section {
+  flex: 1;
+  padding: 20px;
+}
+
+.footer-section h2 {
+  margin-bottom: 10px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+  color: #525151;
+  text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+  text-decoration: underline;
+}
+
+
+
+.social-icons a {
+  color: white;
+  margin-right: 10px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: #ddd;
+}
+
+.container.donation {
+  background-image: url('C:\Users\Dhanushree\Desktop\proj1\proj1\src\images\farmer_1.avif');
+}
+
+.container.land-lease {
+  background-image: url('C:\Users\Dhanushree\Desktop\proj1\proj1\src\images\home2.jpeg');
+}
+
+.caption-content {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  max-width: 90%;
+}
+.header1 {
+  text-align: center;
+  padding: 80px ;
+padding-bottom: 50px;
+background-image: url('C:\Users\Dhanushree\Desktop\proj1\proj1\src\images\3159107.jpg'); 
+  color: white;
+  
+}
+
+.header1 h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+.header1 p {
+  font-size: 1.2em;
+}
+
+.text-content button{
+  padding: 15px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+.text-content  button:hover {
+  background-color: #44a75e;
+}
+
+.caption-content button{
+  padding: 15px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+.caption-content  button:hover {
+  background-color: #44a75e;
+}
+
+

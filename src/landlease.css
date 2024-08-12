@@ -1,0 +1,115 @@
+ .landh1r{
+    font-family: Arial, sans-serif;
+    
+    background-color: #cbd2ba;
+    margin: 0;
+    padding: 0;
+    margin-top: 200px;
+   
+}
+
+.land-leasing-container {
+    width: 100%;
+    margin: 0 auto;
+    height: 100px;
+}
+
+.header {
+    text-align: center;
+    padding: 50px ;
+  padding-bottom: 50px;
+  background-image: url('C:\Users\Dhanushree\Desktop\proj1\proj1\src\images\3159107.jpg'); 
+    color: white;
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 2.5em;
+  }
+  
+  .header p {
+    font-size: 1.2em;
+  }
+  
+  .featured-listings {
+    padding: 20px 0;
+  }
+  
+  .featured-listings h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .cards {
+    display: flex;
+    justify-content: space-between;
+
+  }
+  
+  .card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .card-image {
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 15px;
+  }
+  
+  .card-image-1 {
+    background-image: url('C:\Users\Dhanushree\Desktop\proj1\proj1\src\images\fm7.jpg');
+  }
+  
+  .card-image-2 {
+    background-image: url('C:\Users\Dhanushree\Desktop\proj1\proj1\src\fm4.webp');
+  }
+  
+  .card-image-3 {
+    background-image: url('C:\Users\Dhanushree\Desktop\proj1\proj1\src\images\fm5.jpg');
+  }
+  .card-image-4 {
+    background-image: url('C:\Users\Dhanushree\Desktop\proj1\proj1\src\images\fm6.jpg');
+  }
+  
+  .card-image-5 {
+    background-image: url('C:\Users\Dhanushree\Desktop\proj1\proj1\src\images\fm2.jpg');
+  }
+  
+  .card-image-6 {
+    background-image: url('C:\Users\Dhanushree\Desktop\proj1\proj1\src\images\fm1.jpeg');
+  }
+  
+  .how-it-works {
+    padding: 20px 0;
+    background-color: #e8e8e8;
+  }
+  
+  .how-it-works h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .how-it-works ol {
+    max-width: 600px;
+    margin: 0 auto;
+    padding-left: 20px;
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: white;
+  }
+  .landh2
+  {
+    margin-top: 200px;
+  }

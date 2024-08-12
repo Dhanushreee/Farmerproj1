@@ -1,0 +1,72 @@
+.container-wrappercc {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px; /* Reduced gap between items */
+    justify-content: center; /* Center the items in the container */
+    padding: 0 20px; /* Optional padding to control spacing on the sides */
+  }
+  
+  /* Individual container styling */
+  .containercc {
+    flex: 0 1 calc(33.33% - 10px); /* Adjust width to fit more items per row with gaps */
+    width: 500%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    background-color: #80a73a;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 90px;
+    margin: 5px; 
+    position: relative;
+    height: 250px;
+    margin-top: 40px;
+  }
+  
+ 
+  .containercc:nth-child(1) {
+    background-image: url('C:/Users/Dhanushree/Desktop/proj2/my-app/src/image/m6.jpg');
+  }
+  
+  .containercc:nth-child(2) {
+    background-image: url('C:/Users/Dhanushree/Desktop/proj2/my-app/src/image/m2.webp');
+  }
+  
+ 
+  .text-contentcc {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 50%; 
+  }
+  
+.container-wrappercc1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    margin-left: 150px; /* Maintain the left margin */
+  }
+  
+  .containercc1 {
+    flex: 1;
+    max-width: calc(25% - 20px); /* Fit 3 items per row with gap */
+    background-color: #f5f5f5; /* Light background color */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for better appearance */
+    margin-top: 20px;
+  }
+  
+  .containercc1 h2 {
+    margin-top: 0; /* Remove top margin for h2 */
+    color: #333; /* Adjust text color */
+  }
+  
+  .containercc1 p {
+    color: #666; /* Adjust text color */
+  }
+  

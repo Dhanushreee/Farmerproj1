@@ -1,0 +1,93 @@
+/* src/Signup.css */
+.signup-container {
+  display: flex;
+  height:90hv; /* Full viewport height */
+}
+
+.image-sidesi {
+  flex: 1;
+  background-image: url('C:\Users\Dhanushree\Desktop\proj1\proj1\src\images\3159107.jpg'); /* Replace with your image URL */
+  background-size: cover;
+  background-position: center;
+}
+
+.form-sidesi {
+  flex: 1;
+  display: flex;
+  padding: 2rem;
+  justify-content: center;
+  align-items: center;
+  background-color: #d3d9c3;
+  width: 700px;
+  padding-top: 20px;
+  height: 900px;
+  
+}
+
+.form-wrappersi {
+  width: 100%;
+  max-width: 450px;
+  padding-top: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+  background: white; /* Background color for the form */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.form-sidesi h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form-sidesi form {
+  display: flex;
+  flex-direction: column;
+  height: 340px;
+  padding-bottom: 400px;
+  padding-right: 100px;
+ 
+
+ 
+}
+
+.form-groupsi {
+  margin-bottom: 15px;
+}
+
+.form-wrappersi label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.form-wrappersi input {
+  width: 110%;
+  padding: 10px;
+  border: 1px solid #4e4444;
+  border-radius: 15px;
+  padding-right: 60px;
+}
+
+.form-wrappersi button {
+  padding: 15px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  width: 80%;
+  border-radius: 11px;
+  margin-bottom: 30px;
+  margin-left: 50px;
+
+  
+}
+
+.form-wrappersi button:hover {
+
+    background-color: #44a75e;
+
+
+}

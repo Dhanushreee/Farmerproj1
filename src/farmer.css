@@ -1,0 +1,84 @@
+/* General styling for the farmer page */
+.farmer-pagefp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #f4f4f4;
+  height: 100vh;
+}
+
+/* Styling for the create post section */
+.create-postfp {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 500px;
+  text-align: center;
+  margin-top: 150px;
+}
+
+/* Styling for the form title */
+.create-postfp h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Styling for form inputs */
+.create-postfp input[type="text"],
+.create-postfp input[type="number"],
+.create-postfp textarea {
+  width: calc(100% - 30px); /* Adjusted for padding and icon */
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+  padding-left: 30px; /* Space for the icon */
+}
+
+/* Styling for textarea */
+.create-postfp textarea {
+  height: 100px;
+  resize: none;
+}
+
+/* Styling for the submit button */
+.create-postfp button {
+  background-color: #2e7d32;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 100%;
+}
+
+.create-postfp button:hover {
+  background-color: #27642a;
+}
+
+/* Icon container styling */
+.icon-container {
+  position: relative;
+}
+
+.icon-container i {
+  position: absolute;
+  left: 10px;
+  top: 12px; /* Adjust according to input height */
+  color: #888;
+}
+
+/* Styling for center alignment */
+center {
+  margin-top: 20px;
+}
+.create-postfp form{
+  height: 350px;
+
+}

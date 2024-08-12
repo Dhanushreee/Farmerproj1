@@ -1,0 +1,54 @@
+.login-container {
+  width: 100%;
+  max-width: 600px; /* Increase the maximum width */
+  margin: 0 auto;
+  padding: 20px; /* Increase padding */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  height: 580px;
+  margin-top: 300px;
+
+}
+
+.login-title {
+  font-size: 2rem; /* Increase title size */
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.login-subtitle {
+  font-size: 1.2rem; /* Increase subtitle size */
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.login-form .form-group {
+  margin-bottom: 20px; /* Increase margin between form groups */
+  margin-top: 40px;
+}
+
+.login-form .form-group .MuiInputBase-input,
+.login-form .form-group .MuiInputLabel-root {
+  font-size: 1.2rem; /* Increase font size of inputs and labels */
+}
+
+.role-label {
+  font-size: 1.2rem; /* Increase font size of the role label */
+  margin-bottom: 5px;
+  display: block;
+}
+
+.role-select {
+  width: 100%;
+  padding: 10px; /* Increase padding for select */
+  font-size: 1.2rem; /* Increase font size */
+}
+
+.login-button {
+  font-size: 1.2rem; /* Increase button font size */
+  padding: 10px 20px; /* Increase button padding */
+}
+.login-container h4{
+  margin-top: 20px;
+}

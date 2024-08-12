@@ -1,0 +1,170 @@
+/* General styles for the entire app */
+.Appfll {
+    font-family: 'Georgia', serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f7f7f7;
+    margin-top: 80px;
+  }
+  
+  /* Hero section styling */
+  .herofll {
+ background-image: url("C:\Users\Dhanushree\Desktop\proj1\proj1\src\images\fm2.jpg");
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 50px 20px; /* Adjust padding for better spacing */
+  }
+  
+  .hero-overlayfll {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay for better text visibility */
+  }
+  
+  .hero-contentfll {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+  }
+  
+  /* Search form styling */
+  .search-formfll {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .input-containerfll {
+    position: relative;
+    margin: 10px;
+  }
+  
+  .input-containerfll input {
+    padding: 10px 10px 10px 40px;
+    border: none;
+    border-radius: 5px;
+    width: 250px;
+  }
+  
+ 
+  
+ .hero-contentfll button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f15a29;
+    color: white;
+    cursor: pointer;
+  }
+  
+ .hero-contentfll button:hover {
+    background-color: #d94c22;
+  }
+  
+  /* Benefits section styling */
+  .featured-benefitsfll {
+    padding: 40px 20px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .featured-benefitsfll h2 {
+    margin-bottom: 20px;
+    font-family: 'Verdana', sans-serif;
+  }
+  
+  .benefits-listfll {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  /* Benefit card styling */
+  .benefit-cardfll {
+    background-color: #fafafa;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    width: 300px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  .benefit-cardfll:hover {
+    transform: translateY(-5px);
+  }
+  
+  .benefit-detailsfll {
+    padding: 15px;
+    text-align: left;
+  }
+  
+  .benefit-detailsfll h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .benefit-detailsfll p {
+    margin: 0;
+    color: #555;
+  }
+  
+  /* Footer styling */
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  .footer-contact {
+    margin: 10px 0;
+  }
+  
+  .social-icons {
+    margin-top: 10px;
+  }
+  
+  .social-icons i {
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+  .subscribe {
+    margin-top: 20px;
+  }
+  
+  .subscribe input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 250px;
+  }
+  
+  .subscribe button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f15a29;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .subscribe button:hover {
+    background-color: #d94c22;
+  }
+  

@@ -1,0 +1,98 @@
+/* Style for the sidebar */
+.sidebar {
+  width: 250px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: #2e7d32;
+  z-index: 10;
+  /* Ensure it does not move and stays in place */
+}
+
+/* Style for the main container next to the sidebar */
+/* .custom-containerh1 {
+  margin-left: 250px; 
+  width: calc(100% - 250px); 
+  height: 120px;
+  background-image: url('C:/Users/Dhanushree/Desktop/proj1/proj1/src/images/h1c.jpg'); 
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  margin-top: 30px;
+} */
+
+/* Additional styling for text */
+.custom-container-texth1 {
+  font-size: 1.5rem;
+  padding: 10px;
+  /* background: rgba(0, 0, 0, 0.5); */
+  border-radius: 8px;
+  margin-left: 200PX;
+}
+
+/* Container wrapper to hold multiple containers */
+.container-wrappercch1 {
+  display: flex;
+  justify-content: space-around; /* Center the containers */
+  margin-left: 250px; /* Align next to the sidebar */
+  width: calc(100% - 250px); /* Full width minus the width of the sidebar */
+  padding: 20px 0; /* Add some top and bottom padding */
+}
+
+/* Individual container styling */
+.containercch1 {
+  flex: 0 1 calc(35% - 10px); /* Two containers, each taking half width minus spacing */
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+  background-color: #80a73a;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 90px;
+  margin: 5px;
+  position: relative;
+  height: 300px;
+
+}
+
+.containercch1:nth-child(1) {
+  background-image: url('C:/Users/Dhanushree/Desktop/proj1/proj1/src/images/giphy.gif'); /* Update path */
+}
+.containercch1:nth-child(2) {
+  background-image: url('C:\Users\Dhanushree\Desktop\proj1\proj1\src\images\hoc2.gif'); /* Update path */
+}
+
+/* Style for text content within the container */
+.text-contentcch1 {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  width: 50%;
+}
+
+.text-contentcch1 button {
+  padding: 15px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+.text-contentcch1 button:hover {
+  background-color: #44a75e;
+}
+.caro
+{
+  margin-left: 40px;
+}

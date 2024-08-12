@@ -1,0 +1,54 @@
+.account-settings-container {
+  max-width: 750px; /* Increase max-width for a larger container */
+  margin: 0 auto;
+  padding: 60px; /* Increase padding for more space inside */
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 250px;
+}
+
+.settings-form {
+  margin-top: 30px; /* Increase margin-top for more space */
+}
+
+.form-groupaa {
+  margin-bottom: 20px; /* Increase margin-bottom for more spacing */
+}
+
+.form-groupaa label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px; /* Increase margin-bottom for more spacing */
+  font-size: 16px; /* Increase font size */
+}
+
+.form-groupaa input[type="text"],
+.form-groupaa input[type="email"],
+.form-groupaa input[type="password"] {
+  width: 85%; /* Increase width */
+  padding: 15px; /* Increase padding for larger inputs */
+  font-size: 16px; /* Increase font size */
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.form-groupaa input[type="checkbox"] {
+  margin-right: 15px; /* Increase margin-right for more spacing */
+}
+
+.settings-form button {
+  margin-top: 25px; /* Increase margin-top for more space */
+  padding: 15px 25px; /* Increase padding for larger button */
+  font-size: 18px; /* Increase font size */
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.settings-form button:hover {
+  background-color: #0056b3;
+}

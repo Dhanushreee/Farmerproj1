@@ -1,0 +1,81 @@
+/* landowner.css */
+
+.landowner-pagellp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #f5f5f5;
+    height: 1000px;
+  }
+  
+  .create-postllp {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    margin: 20px 0;
+    height: 700px;
+  }
+  
+  .create-postllp h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+
+  }
+  
+  .create-postllp form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+  
+  .create-postllp input,
+  .create-postllp textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .create-postllp textarea {
+    resize: vertical;
+  }
+  
+  .create-postllp button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .create-postllp button:hover {
+    background-color: #45a049;
+  }
+  
+  .create-postllp .link-buttonllp {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .create-postllp .link-buttonllp a {
+    text-decoration: none;
+    color: #4CAF50;
+    font-weight: bold;
+  }
+  
+  .create-postllp .link-buttonllp a:hover {
+    text-decoration: underline;
+  }
+  

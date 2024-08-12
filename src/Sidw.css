@@ -1,0 +1,96 @@
+/* Sidebar Styles */
+.sidebar11 {
+  position: fixed;
+  top: 0;
+  left: 0; /* Align to the left */
+  height: 100%;
+  width: 250px;
+  background: linear-gradient(180deg, #2c3e50, #34495e); /* Gradient background */
+  color: #ecf0f1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.7); /* Increased shadow for depth */
+  transition: width 0.3s, transform 0.3s;
+  z-index: 1000; /* Ensure it overlays content */
+  padding-top: 101px; /* Align with the navbar */
+  margin-top: 110px;
+}
+
+.sidebar11:hover {
+  width: 300px; /* Expand on hover for better visibility */
+}
+
+.sidebar-title11 {
+  margin: 20px 0;
+  font-size: 1.8em;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ecf0f1; /* Light color for emphasis */
+  letter-spacing: 1px; /* Add spacing for clarity */
+}
+
+.sidebar-nav11 {
+  width: 100%;
+  flex-grow: 1;
+  margin-top: 30px; /* Space between title and menu */
+}
+
+.sidebar-nav11 ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-nav11 ul li {
+  width: 100%;
+  text-align: left;
+}
+
+.sidebar-nav11 ul li a {
+  display: flex;
+  align-items: center;
+  padding: 15px 20px;
+  width: 100%;
+  color: #ecf0f1;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s, padding 0.3s;
+  font-size: 1.1em;
+  border-left: 3px solid transparent; /* Border indicator for active item */
+}
+
+.sidebar-nav11 ul li a .icon {
+  margin-right: 10px;
+  font-size: 1.2em;
+}
+
+.sidebar-nav11 ul li a:hover,
+.sidebar-nav11 ul li a.active {
+  background-color: rgba(236, 240, 241, 0.1); /* Light hover effect */
+  color: #1abc9c; /* Teal color on hover */
+  padding-left: 30px; /* Slight move right on hover */
+  border-left: 3px solid #1abc9c; /* Teal border on active */
+}
+
+@media (max-width: 768px) {
+  .sidebar11 {
+    width: 200px;
+  }
+
+  .sidebar11:hover {
+    width: 250px; /* Smaller expansion on hover for mobile */
+  }
+
+  .sidebar-title11 {
+    font-size: 1.5em;
+  }
+
+  .sidebar-nav11 ul li a {
+    padding: 10px 15px;
+    font-size: 1em;
+  }
+
+  .sidebar-nav11 ul li a .icon {
+    font-size: 1em;
+  }
+}

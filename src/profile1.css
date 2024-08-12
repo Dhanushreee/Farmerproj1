@@ -1,0 +1,43 @@
+.view-profile-container {
+  max-width: 650px; /* Increase max-width for a larger container */
+  margin: 0 auto;
+  padding: 80px; /* Increase padding for more space inside */
+  margin-top: 200px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.profile-info {
+  margin-top: 30px; /* Increase margin-top for more space */
+  align-items: flex-end;
+}
+
+.profile-info p {
+  margin: 15px 0; /* Increase margin for more spacing */
+  font-size: 18px; /* Increase font size */
+}
+
+.profile-info input {
+  margin-left: 15px; /* Increase margin-left for more spacing */
+  padding: 15px; /* Increase padding for larger inputs */
+  font-size: 16px; /* Increase font size */
+  width: 75%; /* Increase width */
+  height: auto; /* Set height to auto for better responsiveness */
+}
+
+.profile-info button {
+  margin-top: 25px; /* Increase margin-top for more space */
+  padding: 15px 25px; /* Increase padding for larger button */
+  font-size: 18px; /* Increase font size */
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}

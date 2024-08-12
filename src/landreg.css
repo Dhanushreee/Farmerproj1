@@ -1,0 +1,51 @@
+/* Container for the form */
+.form-wrapperlf {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 30px;
+    border: 2px solid #2e7d32;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    background-color: #e8f5e9;
+    height: 900px;
+    margin-top: 150px;
+  }
+  
+  /* Title style */
+  .form-titlelf {
+    text-align: center;
+    color: #2e7d32;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for each form group */
+  .form-grouplf {
+    margin-bottom: 20px;
+  }
+  
+  /* Input fields */
+  .registration-formlf .MuiTextField-root {
+    width: 100%;
+  }
+  
+  /* Button styling */
+  .submit-buttonlf {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 8px;
+  }
+  
+  /* Style for icons */
+  .MuiInputAdornment-rootlf {
+    color: #2e7d32;
+  }
+  
+  /* Visibility toggle button */
+  .MuiIconButton-rootlf {
+    color: #2e7d32;
+  }
+  

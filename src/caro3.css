@@ -1,0 +1,66 @@
+.carousell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 85%;
+    margin: auto;
+    height: 500px;
+    overflow: hidden;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    margin-left: 3000px;
+ 
+    margin-top: 100px;
+   
+}
+  
+  .carousel-buttonl {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+  }
+  
+  .carousel-buttonl:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .carousel-buttonl:nth-of-type(1) {
+    left: 10px;
+  }
+  
+  .carousel-buttonl:nth-of-type(2) {
+    right: 10px;
+  }
+  
+  .carousel-imagel {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    transition: background-image 0.5s ease-in-out;
+  }
+  
+  .image-0l {
+    background-image: url('C:\Users\Dhanushree\Desktop\proj2\my-app\src\image\ca21.jpg');
+    padding-right: 20px;
+  }
+  
+  .image-1l {
+    background-image: url('C:\Users\Dhanushree\Desktop\proj2\my-app\src\image\im2.jpg');
+    padding-right: 20px;
+  }
+  
+  .image-2l {
+    background-image: url('C:\Users\Dhanushree\Desktop\proj2\my-app\src\image\ca23.jpg');
+    padding-right: 20px;
+  }
+  

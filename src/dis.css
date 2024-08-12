@@ -1,0 +1,71 @@
+.farmer-details-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+   
+    margin-top: 200px;
+    
+    
+}
+
+.farmer-profile, .product-details {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px;
+    width: 100%;
+    align-items: center;
+    background-color: white;
+}
+
+.farmer-image, .product-image {
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    margin-right: 20px;
+}
+
+.farmer-image {
+    background-image: url('C:\Users\Dhanushree\Desktop\proj1\proj1\src\images\prof.jpeg');
+}
+
+.product-image {
+    background-image: url('C:\Users\Dhanushree\Desktop\proj1\proj1\src\images\shutterstock_1798373137.jpg');
+}
+
+.farmer-info, .product-info {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+p {
+    margin: 5px 0;
+}
+
+.farmer-history, .additional-details {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px;
+    width: 100%;
+    background-color:white ;
+}
+.farmer-details-page button {
+    padding: 15px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .farmer-details-page button:hover {
+    background-color: #44a75e;
+  }

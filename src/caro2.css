@@ -1,0 +1,66 @@
+.carouself {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 85%;
+    margin: auto;
+    height: 500px;
+    overflow: hidden;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    margin-left: 250px;
+ 
+    margin-top: 120px;
+   
+}
+  
+  .carousel-buttonf {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+  }
+  
+  .carousel-buttonf:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .carousel-buttonf:nth-of-type(1) {
+    left: 10px;
+  }
+  
+  .carousel-buttonf:nth-of-type(2) {
+    right: 10px;
+  }
+  
+  .carousel-imagef {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    transition: background-image 0.5s ease-in-out;
+  }
+  
+  .image-0f {
+    background-image: url('C:\Users\Dhanushree\Desktop\proj2\my-app\src\image\ca21.jpg');
+    padding-right: 20px;
+  }
+  
+  .image-1f {
+    background-image: url('C:\Users\Dhanushree\Desktop\proj2\my-app\src\image\im2.jpg');
+    padding-right: 20px;
+  }
+  
+  .image-2f {
+    background-image: url('C:\Users\Dhanushree\Desktop\proj2\my-app\src\image\ca23.jpg');
+    padding-right: 20px;
+  }
+  
